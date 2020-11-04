@@ -18,15 +18,28 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-theme: beautiful-jekyll-theme
+remote_theme: daattali/beautiful-jekyll
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+  - jekyll-sitemap
 title: 极客分享博客
 author: hackershare
 remove-ads: true
-navbar-links:
-  hackershare.dev: "https://hackershare.dev"
 permalink: pretty
+keywords: "hackershare, 极客分享博客, 书签分享, bookmark"
+rss-description: "极客分享（hackershare) 是一个基于书签社交的平台，你可以在这里发现技术圈新鲜事，也可以在这里检索工具和技术教程。"
+navbar-links:
+  主页: "https://hackershare.dev"
+  反馈: "https://cdn.hackershare.cn/wechat-hackershare.jpeg"
+social-network-links:
+  email: "support@hackershare.dev"
+  github: hackershare
+  twitter: HackershareH
+share-links-active:
+  twitter: true
+  facebook: true
+  linkedin: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
