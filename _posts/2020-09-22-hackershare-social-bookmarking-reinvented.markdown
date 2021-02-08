@@ -30,6 +30,6 @@ hackershare是一个开源项目，应用的范围很广，比如：如果拿来
 
 和普通论坛或CMS比，hackershare更轻量级，SEO友好，具有更好的信息架构，以及自动化特性，做一些导流站的话，你甚至可以省去写爬虫的时间。
 
-* 项目地址：https://hackershare.dev
-* github：https://github.com/hooopo/hackershare
-* chrome extension：https://github.com/hooopo/hackershare-ext
+* 项目地址：[hackershare.dev](https://hackershare.dev)
+* github：[hackershare/hackershare](https://github.com/hackershare/hackershare)
+* chrome extension：[hackershare/hackershare-ext](https://github.com/hooopo/hackershare-ext)
