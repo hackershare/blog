@@ -4,8 +4,6 @@ title:  "记录一下 dashboard 性能优化 (10s->1ms)"
 date:   2021-04-12 20:00:00 +0800
 ---
 
-# 记录一次性能优化
-
 [Hackershare](https://hackershare.dev/) 后台的一个Dashboard页面，由于很多统计类的查询，响应越来越慢，差不多要十几秒打开。主要是有两个50w左右的数据表，count非常慢，还有一部分原因就是这台2c4g的服务器部署了很多程序，CPU经常被其他服务占用。
 
 ![](https://l.ruby-china.com/photo/hooopo/b769b2c6-c102-481e-9dea-0ec4908b2ff5.png!large)
